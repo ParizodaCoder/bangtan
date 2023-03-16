@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+ 
+}
+
+/* .image {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image.img1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: linear-gradient(
+      rgba(27, 173, 73, 0.5),
+      rgba(8, 26, 129, 0.5)) url(/img/taehyung.jpg);
+    transform: scaleX(0);
+    transition: 0.3s;
+    transform-origin: left;
+  }
+   */
+  .image.img1 {
+    z-index: 1;
+  }
+  
+  .image.img1:hover::before {
+    transform: scaleX(1);
+  }
+  
+
+.image.img1{
+    width: 280px;
+    height: 330px;
+    cursor: pointer;
+   
+   
+}
+
+.image.img1{
+    position: relative;
+    z-index: 1;
+}
+
+.image.img1::before{
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: 0.3s;
+      background-image: linear-gradient(to right rgba(251, 7, 7, 0.5), rgba(251, 251, 6, 0.5)) url(/img/taehyung.jpg);
+     
+}
+
+
+.image:hover::before{
+    transform: scaleX(1);
+} 

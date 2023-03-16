@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.header {
+    background-image: url(../img/korea.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-header {
+    width: 96%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    height: 10vh;
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-icon i {
+    margin-left: 20px;
+}
+
+.top-icon {
+    font-size: 40px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    color: rgb(190, 37, 108);
+}
+
+.main-text h2 {
+    font-size: 50px;
+}
+
+.main-text p {
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+.main-text button {
+    border: 1px solid rgb(243, 238, 238);
+    padding: 10px 35px;
+    color: rgb(190, 37, 108);
+    background-color: transparent;
+    
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(233, 231, 227);
+    height: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(173, 170, 170);
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    /* padding-top: 30px; */
+}
+
+.about p {
+    text-align: center;
+    width: 700px;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #696565;
+    margin-bottom: 25px;
+}
+
+.about img {
+    margin-bottom: 35px;
+}
+
+.line {
+    background-color: rgb(59, 174, 202);
+    padding: 0.5px 30px;
+    margin: 40px 0;
+}
+
+
+
+section.wedo {
+    background-color: white;
+    padding: 100px 0;
+    box-shadow: 0 0 15px rgb(182, 180, 180);
+
+}
+
+
+.wedo-line{
+    border: 1px solid rgb(59, 174, 202);
+    width: 50px;
+    margin: 20px auto;
+    height: 1px;
+    background-color: rgb(59, 174, 202);
+}
+
+.wedo-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.circle {
+    border: 1px solid rgb(107, 185, 221);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(107, 185, 221);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in i {
+    font-size: 40px;
+    color: white;
+}
+
+.blocks {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.block {
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.block-line {
+    width: 60px;
+    height: 2px;
+    background-color: rgb(107, 185, 221);
+    margin: 20px 0;
+}
+
+.block h3 {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.block p {
+    color: #696565;
+
+}
+
+
+/* design */
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+}
+
+.design .design-img{
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/islandjm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.design-text{
+    width: 50%;
+}
+
+.design-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.design-text h2{
+    text-transform: uppercase;
+    font-size: 900;
+}
+
+.design-line{
+    width: 40px;
+    height: 3px;
+    background-color: rgb(107, 185, 221);
+    margin: 15px 0 50px 0;
+}
+
+.design-text p{
+  color: #696565;
+  width: 45%;
+}
+
+
+.circles{
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+.circle1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(107, 185, 221);
+    background-color: rgb(107, 185, 221) ;
+}
+
+.circle2{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(107, 185, 221);
+    background-color: rgb(107, 185, 221)
+}
+
+
+
+
+
+
+
+/* part */
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/bbf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    box-shadow: 0 0 20px rgb(38, 71, 116);
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section p{
+    text-transform: uppercase;
+    
+}
+
+.section i{
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+
+/* our */
+
+/* section.our {
+    background-color: white;
+    padding: 100px 0;
+    height: 100vh;
+
+
+}
+
+
+.our-line{
+    border: 1px solid rgb(59, 174, 202);
+    width: 50px;
+    height: 3px;
+    background-color: rgb(59, 174, 202);
+    margin: 20px auto;
+}
+
+.our-title h2  {
+    text-transform: uppercase;
+    font-weight: 900px;
+   display: flex;
+   align-items: center;
+ 
+} */
+
+
+section.our {
+    background-color: white;
+    padding: 100px 0;
+    
+
+}
+
+
+.our-line{
+    border: 1px solid rgb(59, 174, 202);
+    width: 50px;
+    margin: 30px auto;
+    height: 1px;
+    background-color: rgb(59, 174, 202);
+}
+
+.our-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.img-blocks{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .img-block img{
+    width: 100%;
+
+} 
+
+
+.img-block{
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-line{
+    border: 1px solid  rgb(59, 174, 202);
+    height: 0.5px;
+    width: 40px;
+    margin: 25px 0;
+}
+
+.img-block h2{
+    font-size: 300;
+    margin-top: 35px;
+}
+
+
+/* watch */
+
+
+section.watch{
+    background-image: url(/img/saturn.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+
+.watch-text{
+    display: flex;
+    justify-content: center;
+  padding-top: 29vh;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+}
+
+.watch-text i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+/* member */
+
+
+section.member {
+    background-color: white;
+    padding: 100px 0;
+    
+
+}
+
+.member-line{
+    border: 1px solid rgb(59, 174, 202);
+    width: 50px;
+    margin: 30px auto;
+    height: 1px;
+    background-color: rgb(59, 174, 202);
+}
+
+.member-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.member-blocks{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-block img{
+    width: 100%;
+
+} 
+
+
+.member-block{
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.member-line2{
+    border: 1px solid  rgb(59, 174, 202);
+    height: 0.5px;
+    width: 40px;
+    margin:25px 0;
+
+}
+
+.member-block h2{
+    text-transform: uppercase;
+    font-size: 900;
+    margin-top: 35px;
+}
+
+.member-icons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+}
+
+.member-icon i{
+    background-color: rgb(27, 125, 170);
+    color: white;
+    font-size: 25px;
+}
+
+
+/* letter */
+
+section.letter{
+    background-image: url(/img/art.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+
+}
+
+.letter h2{
+    color: white;
+    font-weight: 400;
+    padding-top: 39vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.letter-but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.letter-but button:nth-child(1){
+  padding: 12px 50px;
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
+   margin-right: 10px;
+}
+
+.letter-but button:nth-child(2){
+    padding: 12px 40px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+/* drop */
+
+
+section.drop {
+    background-color: white;
+    padding: 100px 0;
+    
+
+}
+
+.drop-line{
+    border: 1px solid rgb(59, 174, 202);
+    width: 50px;
+    margin: 30px auto;
+    height: 1px;
+    background-color: rgb(59, 174, 202);
+}
+
+.drop-title h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.drop-blocks{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-block img{
+    width: 100%;
+
+} 
+
+
+.drop-block{
+    width: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e6dede;
+    height: 300px;
+}
+
+.drop-line2{
+    border: 1px solid  rgb(59, 174, 202);
+    height: 0.5px;
+    width: 40px;
+    margin:25px 0;
+
+}
+
+.drop-block h2{
+    text-transform: uppercase;
+    font-size: 900;
+    margin-top: 35px;
+}
+
+.drop-icons{
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+
+}
+
+.drop-icon i{
+    background-color: rgb(27, 125, 170);
+    color: white;
+    font-size: 25px;
+    margin: 8px;
+}
+
+/* last */
+
+section.last{
+    height: 20vh;
+    background-color: #343232;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.last i{
+    margin: 0 5px;
+}
